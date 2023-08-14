@@ -1,10 +1,76 @@
-#서비스명 {
+body{
+    font-family: Pretendard;
+}
+nav{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 200px 0px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #FFD966;
+    font-weight: bolder;
     font-size: 30px;
 }
+.noroomi{
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+#service-name{
+    margin: 0 0 0 10px;
+}
+#name{
+    color: #FFD966;
+}
+#profile{
+    width: 50px;
+    height: 50px;
+}
+
+ul li {
+    list-style: none;
+}
+.navUI{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #737373;
+    align-items: center;
+}
+
 main{
-    text-align: center;
+     background-color: #FCFCFC;
+     text-align: center;
+     padding: 170px 0;
 }
 h1{
-    margin: 150px 0 0 0;
-    /*font-size: 56px;*/
+    font-size: 40px;
+}
+#도움\ 수락{
+    background-color: #FFD966;
+    padding: 15px;
+    margin: 0 0 0 50px;
+    border-radius: 70px;
+    border: none;
+    font-size: 15px;
+}
+#거절{
+    padding: 15px;
+    margin: 0 50px 0 0;
+    border-radius: 70px;
+    border: none;
+    width: 124px;
+    font-size: 15px;
+}
+
+.hand{
+    weight: 10px;
 }

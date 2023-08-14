@@ -1,4 +1,64 @@
+body{
+    font-family: Pretendard;
+}
+nav{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 200px 0px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #FFD966;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.noroomi{
+    align-items: center;
+    display: flex;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+#service-name{
+    margin: 0 0 0 10px;
+}
+#name{
+    color: #FFD966;
+}
+#profile{
+    width: 50px;
+    height: 50px;
+}
+
+ul li {
+    list-style: none;
+}
+.navUI{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color: #737373;
+    align-items: center;
+}
+
 main{
+    background-color: #FCFCFC;
     text-align: center;
-    margin: 150px 0 0 0;
+    padding: 165px 0;
+
+}
+h1{
+    font-size: 40px;
+}
+.ok{
+    weight: 180px;
+    height: 180px;
+}
+p{
+    margin: 30px 0 0 0;
+    font-size: 18px;
 }
