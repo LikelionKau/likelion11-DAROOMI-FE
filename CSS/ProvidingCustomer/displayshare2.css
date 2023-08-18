@@ -48,7 +48,64 @@ main{
     margin: 0 auto;
 }
 
-#recording{
-     text-align: center;
-
+.record{
+    text-align: center;
+    font-size: small;
  }
+.item-list2{
+    display: flex;
+    align-items: baseline;
+    margin-left: 60px;
+}
+#name2{
+    color: #FFD966;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+#customerscreen{
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.shared-screen-container{
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+}
+.exit2 {
+    width: auto; /* 너비 자동으로 조절 */
+    height: auto; /* 높이 자동으로 조절 */
+    padding: 10px 20px; /* 패딩을 조절하여 버튼 내용의 공간 설정 */
+    border: 2px solid #FFC30C;
+    border-radius: 8px;
+    background-color: white;
+    color: #FFD966;
+    transition: background-color 0.3s;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.buttonDiv2 button.exit2:hover {
+    background-color: #FFC040;
+    color: white;
+}
+
+
+.exit2 {
+    float: right;
+    margin-right: 75px;
+}
+
+.record p {
+    animation: blink 2.5s linear infinite;
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
