@@ -7,6 +7,6 @@ movepage.addEventListener("click", function (){
 
 const exit = document.getElementById('exit')
 exit.addEventListener("click", function (){
-    location.href="../../HTML/SpendingCustomer/help_request.html"
+    location.href="../../HTML/SpendingCustomer/index.html"
 })
 
