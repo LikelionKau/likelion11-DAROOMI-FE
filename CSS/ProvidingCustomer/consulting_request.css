@@ -61,11 +61,17 @@ main{
     background-color: white;
     font-size: 15px;
     color: #FFD75C;
-    border: 1.5px solid #FFD966;
+    border: 1.5px solid #FFC30C;
     margin: 0 0 0 50px;
     padding: 15px;
     border-radius: 70px;
     cursor: pointer;
+}
+#도움\ 수락:hover{
+    background-color: #FFC30C;
+    transition: all 0.3s;
+    color: white;
+
 }
 #거절{
     background-color: white;
@@ -77,5 +83,10 @@ main{
     padding: 15px;
     border-radius: 70px;
     cursor: pointer;
+}
+#거절:hover{
+    background-color: gainsboro;
+    transition: all 0.3s;
+    color: white;
 }
 
