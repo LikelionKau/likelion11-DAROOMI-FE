@@ -2,7 +2,7 @@ body{
     background-color: #FCFCFC;
     margin: 0;
     padding: 0;
-    font-family: 'Pretendard', "Pretendard Variable";
+    font-family: Pretendard, "Pretendard Variable";
 }
 nav{
     height: 60px;
@@ -26,12 +26,11 @@ nav a{
 }
 ul li {
     list-style: none;
-    font-size: small;
 }
 .navUI{
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: small;
     color: #737373;
     align-items: center;
 }
@@ -43,50 +42,55 @@ ul li {
     height: 40px;
 }
 
+
 main{
     width: 80vw;
     margin: 0 auto;
     text-align: center;
 }
-
-#call{
-    weight: 200px;
-    height: 200px;
-    margin: 150px 0 10px 0;
+#picture{
+    width: 250px;
+    height: 250px;
+    margin: 100px 0 0 0;
+}
+h2{
+    margin-bottom: 0;
+    margin-top:10px;
+}
+span{
+    color: #FFD966;
+}
+p{
+    color: #737373;
+    margin-top: 10px;
 }
 .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     margin-top: 30px;
 }
-#도움\ 수락{
+.good, .bad{
+    width: 180px;
+}
+#thumbup, #thumbdown{
     background-color: white;
-    font-size: 15px;
-    color: #FFD75C;
-    border: 1.5px solid #FFC30C;
-    margin: 0 0 0 50px;
+    border: 1px solid gainsboro;
     padding: 15px;
-    border-radius: 70px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
     cursor: pointer;
 }
-#도움\ 수락:hover{
-    background-color: #FFC30C;
-    transition: all 0.3s;
-    color: white;
-
-}
-#거절{
-    background-color: white;
-    font-size: 15px;
-    color: darkgrey;
-    border: 1.5px solid gainsboro;
-    margin: 0 50px 0 0;
-    width: 126px;
-    padding: 15px;
-    border-radius: 70px;
-    cursor: pointer;
-}
-#거절:hover{
+#thumbup:hover{
     background-color: gainsboro;
     transition: all 0.3s;
-    color: white;
 }
-
+#thumbdown:hover{
+    background-color: gainsboro;
+    transition: all 0.3s;
+}
+#thumbupimg, #thumbdownimg{
+    width: 50px;
+    height: 50px;
+}

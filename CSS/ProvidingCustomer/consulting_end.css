@@ -18,10 +18,6 @@ nav a{
     font-weight: bolder;
     font-size: 30px;
 }
-.noroomi{
-    align-items: center;
-    display: flex;
-}
 .logo{
     height: 25px;
     display: flex;
@@ -44,16 +40,17 @@ ul li {
     color: #737373;
     align-items: center;
 }
+
+#profile{
+    width: 40px;
+    height: 40px;
+}
+
 main{
-    display: flex;
-    justify-content: space-between;
-    padding: 8rem 12px;
-    gap: 5rem;
+    width: 80vw;
+    margin: 0 auto;
 }
-.Service_End1{
-    margin-left: 300px;
-    text-align: center;
-}
+  
 .Service_End1_img{
     width: 300px;
     height: 300px;

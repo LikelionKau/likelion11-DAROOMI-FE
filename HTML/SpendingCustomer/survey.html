@@ -1,18 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../CSS/SpendingCustomer/survey_start.css">
-    <title>Screen Sharing</title>
-
+    <title>만족도 조사</title>
+    <link rel="stylesheet" href="../../CSS/SpendingCustomer/survey.css">
 </head>
 <body>
 <nav>
-    <p><a href="#">누르미</a></p>
-    <ul class="navUl">
+    <div class="noroomi">
+        <a href="#"><img class="logo" src="../../IMG/누르미 로고.png"></a>
+    </div>
+    <ul class="navUI">
         <li>환영합니다&nbsp;</li>
-        <li>김순자 &nbsp;님</li>
-        <li><a href="../../img/noun-profile-405168.png"><img></a></li>
+        <li id="name">김순자&nbsp;</li>
+        <li>님&nbsp;</li>
+        <li><a href="#"><img id="profile" src="../../IMG/cute-grandmother-character-design-generative-ai%201.png"></a></li>
     </ul>
 </nav>
+<main>
+    <img id="picture" src="../../IMG/Ellipse 12.png">
+    <h2><span>김제니</span> 님과의 상담은 어떠셨나요?</h2>
+    <p>해당되는 그림을 선택해주세요!</p>
+    <div class="button">
+        <div class="good">
+            <button id="thumbup" onclick="window.location.href = '../ProvidingCustomer/consulting_end.html'"><img id="thumbupimg" src="../../IMG/image 4.png"></button>
+            <p>만족스러웠어요.</p>
+        </div>
+        <div class="bad">
+            <button id="thumbdown"><img id="thumbdownimg" src="../../IMG/image 6.png"></button>
+            <p>다시 만나고 싶지 않아요.</p>
+        </div>
+    </div>
+
+</main>
+</body>
