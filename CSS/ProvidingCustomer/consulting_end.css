@@ -117,17 +117,17 @@ main{
 
 }
 
-@media screen and (max-width: 1068px) {
-    nav {
-        padding: 0;
-    }
-    .noroomi {
-        margin-left: 50px;
-    }
-    .navUI {
-        margin-right: 50px;
-    }
-}
+/*@media screen and (max-width: 1068px) {*/
+/*    nav {*/
+/*        padding: 0;*/
+/*    }*/
+/*    .noroomi {*/
+/*        margin-left: 50px;*/
+/*    }*/
+/*    .navUI {*/
+/*        margin-right: 50px;*/
+/*    }*/
+/*}*/
 /*@media screen and (max-width: 1268px) {*/
 /*    .Service_End1 {*/
 /*        margin-left: 300px;*/
