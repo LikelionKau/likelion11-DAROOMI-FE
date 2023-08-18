@@ -2,7 +2,7 @@ body{
     background-color: #FCFCFC;
     margin: 0;
     padding: 0;
-    font-family: 'Pretendard', "Pretendard Variable";
+    font-family: Pretendard, "Pretendard Variable";
 }
 nav{
     height: 60px;
@@ -26,12 +26,11 @@ nav a{
 }
 ul li {
     list-style: none;
-    font-size: small;
 }
 .navUI{
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: small;
     color: #737373;
     align-items: center;
 }
@@ -43,12 +42,47 @@ ul li {
     height: 40px;
 }
 
+
 main{
     width: 80vw;
     margin: 0 auto;
+    text-align: center;
 }
-
-#recording{
-     text-align: center;
-
- }
+#picture{
+    width: 250px;
+    height: 250px;
+    margin: 100px 0 0 0;
+}
+h2{
+    margin-bottom: 0;
+    margin-top:10px;
+}
+span{
+    color: #FFD966;
+}
+p{
+    color: #737373;
+    margin-top: 10px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.good, .bad{
+    width: 180px;
+}
+#thumbup, #thumbdown{
+    background-color: white;
+    border: 1px solid gainsboro;
+    padding: 15px;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+#thumbupimg, #thumbdownimg{
+    width: 50px;
+    height: 50px;
+}
