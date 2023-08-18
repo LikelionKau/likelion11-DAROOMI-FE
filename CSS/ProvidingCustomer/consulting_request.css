@@ -52,30 +52,53 @@ main{
 #call{
     weight: 200px;
     height: 200px;
-    margin: 150px 0 10px 0;
+    margin: 115px 0 20px 0;
 }
+.name_ {
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFD966;
+    align-items: center;
+}
+.connect_msg{
+    font-weight: normal;
+    font-size: 22px;
+    color: black;
+    align-items: center;
+}
+.item-list {
+    display: flex; /* flex 컨테이너로 설정 */
+    /*align-items: center; !* 수직 가운데 정렬 *!*/
+    align-items: baseline;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
 .button{
     margin-top: 30px;
+    gap: 10px;
+
 }
 #도움\ 수락{
     background-color: white;
-    font-size: 15px;
+    font-size: 16px;
     color: #FFD75C;
     border: 1.5px solid #FFC30C;
     margin: 0 0 0 50px;
     padding: 15px;
     border-radius: 70px;
     cursor: pointer;
+
 }
 #도움\ 수락:hover{
     background-color: #FFC30C;
     transition: all 0.3s;
     color: white;
-
 }
 #거절{
     background-color: white;
-    font-size: 15px;
+    font-size: 16px;
     color: darkgrey;
     border: 1.5px solid gainsboro;
     margin: 0 50px 0 0;
@@ -89,4 +112,18 @@ main{
     transition: all 0.3s;
     color: white;
 }
+
+#call {
+    animation: floatAnimation 1s infinite; /* 무한 반복하는 애니메이션 적용, 속도를 빠르게 조절 */
+}
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
 

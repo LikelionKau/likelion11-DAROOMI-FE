@@ -75,3 +75,20 @@ span{
 @media screen and (max-width: 500px) {
 
 }
+
+#call {
+    transition: transform 0.3s; /* 변화를 부드럽게 처리하는 트랜지션 */
+}
+
+#call:hover {
+    animation: floatAnimation 1s infinite; /* 무한 반복하는 애니메이션 적용 */
+}
+
+@keyframes floatAnimation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}

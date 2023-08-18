@@ -52,6 +52,7 @@ ul li {
 main{
     width: 80vw;
     margin: 0 auto;
+    text-align: center;
 }
 .consultant{
     position: absolute;
@@ -66,7 +67,7 @@ main{
 }
 .fin_ment{
     font-weight: bold;
-    font-size: 36px;
+    font-size: 40px;
     color: #FFD966;
 }
 #mypage1{
@@ -76,55 +77,61 @@ main{
 }
 .connect_msg{
     font-weight: normal;
-    font-size: 30px;
+    font-size: 35px;
     color: black;
 }
 .item-list {
     display: flex; /* flex 컨테이너로 설정 */
     align-items: center; /* 수직 가운데 정렬 */
     align-items: baseline;
+    justify-content: center;
 }
 .buttonDiv1 {
-    text-align: center; /* 버튼들을 가운데 정렬 */
+    margin-top: 30px;
+    width: 800px;
     justify-content: space-between;
-    width: 600px;
+    justify-content: center;
     display: flex;
+    text-align: center;
+    height: 100px;
+
 }
-.buttonDiv1 button {
-    margin: 5px 0;
-    padding: 15px 30px;
-    border-radius: 14px;
-    font-size: 24px;
-}
+
+
 .screenshare {
-    width: auto; /* 너비 자동으로 조절 */
-    height: auto; /* 높이 자동으로 조절 */
-    padding: 5px 15px; /* 패딩을 조절하여 버튼 내용의 공간 설정 */
-    border: 2px solid #FFC30C;
-    border-radius: 14px;
     background-color: white;
-    color: #FFD966;
-    transition: background-color 0.3s;
-    margin-right: 20px;
+    font-size: 26px;
+    color: #FFD75C;
+    border: 2px solid #FFC30C;
+    /* margin: 0 0 0 50px; */
+    padding: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 220px;
+    margin: 0 50px 0 0;
+    height: 80px;
 }
 
 .buttonDiv1 button.screenshare:hover {
     background-color: #FFC040;
     color: white;
 }
+
+.exit1 {
+    background-color: white;
+    font-size: 26px;
+    color: #D9D9D9;
+    border: 2px solid #D9D9D9;
+    height: 80px;
+    /*margin: 0 0 0 50px;*/
+    padding: 0px;
+    width: 220px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 0 0 0 50px;
+}
 .buttonDiv1 button.exit1:hover {
     background-color: #D9D9D9;
     color: white;
 }
 
-.exit1 {
-    width: auto; /* 너비 자동으로 조절 */
-    height: auto; /* 높이 자동으로 조절 */
-    padding: 5px 15px; /* 패딩을 조절하여 버튼 내용의 공간 설정 */
-    border: 2px solid #D9D9D9;
-    border-radius: 14px;
-    background-color: white;
-    margin: 5px;
-    color: #D9D9D9;
-    transition: background-color 0.3s;
-}
