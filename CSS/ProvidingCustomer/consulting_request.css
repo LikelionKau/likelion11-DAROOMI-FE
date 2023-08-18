@@ -1,5 +1,8 @@
 body{
-    font-family: Pretendard;
+    background-color: #FCFCFC;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard', "Pretendard Variable";
 }
 nav{
     height: 60px;
@@ -15,28 +18,15 @@ nav a{
     font-weight: bolder;
     font-size: 30px;
 }
-.noroomi{
-    align-items: center;
-    justify-content: flex-end;
-    display: flex;
-}
 .logo{
-    width: 40px;
-    height: 40px;
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
-#service-name{
-    margin: 0 0 0 10px;
-}
-#name{
-    color: #FFD966;
-}
-#profile{
-    width: 50px;
-    height: 50px;
-}
-
 ul li {
     list-style: none;
+    font-size: small;
 }
 .navUI{
     display: flex;
@@ -45,32 +35,47 @@ ul li {
     color: #737373;
     align-items: center;
 }
+#name{
+    color: #FFD966;
+}
+#profile{
+    width: 40px;
+    height: 40px;
+}
 
 main{
-     background-color: #FCFCFC;
-     text-align: center;
-     padding: 170px 0;
-}
-h1{
-    font-size: 40px;
-}
-#도움\ 수락{
-    background-color: #FFD966;
-    padding: 15px;
-    margin: 0 0 0 50px;
-    border-radius: 70px;
-    border: none;
-    font-size: 15px;
-}
-#거절{
-    padding: 15px;
-    margin: 0 50px 0 0;
-    border-radius: 70px;
-    border: none;
-    width: 124px;
-    font-size: 15px;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
 }
 
-.hand{
-    weight: 10px;
+#call{
+    weight: 200px;
+    height: 200px;
+    margin: 150px 0 10px 0;
 }
+.button{
+    margin-top: 30px;
+}
+#도움\ 수락{
+    background-color: white;
+    font-size: 15px;
+    color: #FFD75C;
+    border: 1.5px solid #FFD966;
+    margin: 0 0 0 50px;
+    padding: 15px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+#거절{
+    background-color: white;
+    font-size: 15px;
+    color: darkgrey;
+    border: 1.5px solid gainsboro;
+    margin: 0 50px 0 0;
+    width: 126px;
+    padding: 15px;
+    border-radius: 70px;
+    cursor: pointer;
+}
+

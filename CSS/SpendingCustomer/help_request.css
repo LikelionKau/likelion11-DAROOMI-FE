@@ -1,10 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+body{
+    background-color: #FCFCFC;
+    margin: 0;
+    padding: 0;
+    font-family: 'Pretendard', "Pretendard Variable";
+}
+nav{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 200px 0px 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: #FFD966;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.logo{
+    height: 25px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+}
+.navUI{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    color: #737373;
+    align-items: center;
+}
+#name{
+    color: #FFD966;
+}
+#profile{
+    width: 40px;
+    height: 40px;
+}
 
-</body>
-</html>
+
+main{
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+button{
+    background-color: #FCFCFC;
+    border: none;
+    border-radius: 100%;
+    width: 280px;
+    height: 280px;
+    margin: 130px 0 10px 0;
+    cursor: pointer;
+}
+#call{
+     width: 270px;
+     height: 270px;
+ }
+p {
+    color: #737373;
+    margin-bottom: 10px;
+}
+h1{
+    margin-top: 0;
+}
+span{
+    color: #FFD966;
+}
+
+@media screen and (max-width: 500px) {
+
+}
