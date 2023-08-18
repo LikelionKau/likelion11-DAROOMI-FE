@@ -66,6 +66,7 @@ main{
     border: 1px solid #E9E9E9;
     border-radius: 4px;
     padding: 10px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 1480px) {
