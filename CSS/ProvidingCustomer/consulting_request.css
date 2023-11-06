@@ -26,7 +26,6 @@ nav a{
 }
 ul li {
     list-style: none;
-    font-size: small;
 }
 .navUI{
     display: flex;
