@@ -1,0 +1,76 @@
+body {
+    font-family: '나눔스퀘어', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px; /* 필요에 따라 양쪽에 패딩을 추가할 수 있습니다 */
+}
+
+/* 로고와 네비게이션 링크를 수평으로 정렬합니다 */
+#div1, #div2 {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    text-align: center;
+    justify-content: space-between;
+    max-width: 1080px; /* 이 값을 조정하여 너비를 설정할 수 있습니다 */
+    margin: 0 auto; /
+}
+
+
+/* 로고에 적당한 여백을 추가합니다 */
+nav .logo {
+    margin-right: 50px; /* 여기서 여백을 조정할 수 있습니다 */
+    height: 25px;
+    display: flex;
+}
+
+/* 모든 네비게이션 링크에 대해 스타일을 적용합니다 */
+nav a {
+    text-decoration: none;
+    color: black; /* 여기서 링크의 색상을 조정할 수 있습니다 */
+    margin-right: 15px; /* 링크 사이의 간격을 조정합니다 */
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+/* left-content 클래스를 가진 요소를 상대적으로 위치시킵니다 */
+.left-content {
+    position: relative;
+}
+
+/* circle 클래스를 가진 이미지를 가득 채우도록 합니다 */
+.left-content .circle {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+
+.right-content {
+    /*width: 40%;*/
+    text-align: right;
+    width: 40%;
+}
+
+footer {
+    background-color: #F6F6F6;
+    padding: 20px 0;
+    text-align: center;
+}
+
