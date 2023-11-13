@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>로그인</title>
+  <link rel="stylesheet" href="../../CSS/SpendingCustomer/login.css">
+</head>
+<body>
+<nav>
+  <div class="noroomi">
+    <a href="#"><img class="logo" src="../../IMG/누르미%20로고.png"></a>
+  </div>
+  <ul class="nav1">
+    <li class="introduce">소개</li>
+    <li class="introduce">공지</li>
+    <li class="introduce">고객센터</li>
+  </ul>
+  <ul class="navUI">
+    <li class="introduce">회원가입</li>
+    <li class="introduce">로그인</li>
+    <button onclick="location.href='../../HTML/SpendingCustomer/signup.html'" class="sign">봉사자로 가입하기</button>
+  </ul>
+</nav>
+<main>
+  <h1 id="title1">로그인</h1>
+
+  <form id="loginform" action="" method="POST">
+
+  <div class = "input-field">
+    <input id="username" type="text" name="username" placeholder="아이디">
+    <label for="username">아이디(이메일)</label>
+  </div>
+
+  <div class = "input-field">
+    <input id="password" type="password" name="password" placeholder="비밀번호">
+    <label for="password">비밀번호</label>
+  </div>
+  <input type="submit" value="로그인">
+
+  </form>
+
+  <p id="or">or</p>
+  <div class="other">
+    <p id="signup" onclick="location.href='../../HTML/SpendingCustomer/signup.html';">회원가입하고 캐릭터 생성</p>
+    <p id="find" onclick="location.href='이동할 링크주소(URL)';">비밀번호를 잊으셨나요?</p>
+  </div>
+</main>
+
+</body>
+</html>
